@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Initializing the Excel Config and extents Reporters  ]]>
+    </line>
+    <line>
+      <![CDATA[Succesfully done initialization  ]]>
+    </line>
+    <line>
+      <![CDATA[Browser started and navigating to testing server]]>
+    </line>
+    <line>
+      <![CDATA[Succesfuly navigated  to the login page ]]>
+    </line>
+    <line>
+      <![CDATA[Test started and verifying Title of the Login Page]]>
+    </line>
+    <line>
+      <![CDATA[veried Title of the Login Page]]>
+    </line>
+    <line>
+      <![CDATA[generating and attaching screen shots ]]>
+    </line>
+    <line>
+      <![CDATA[generated  and attached the  screen shots and test will be completed.. ]]>
+    </line>
+    <line>
+      <![CDATA[Browser started and navigating to testing server]]>
+    </line>
+    <line>
+      <![CDATA[Succesfuly navigated  to the login page ]]>
+    </line>
+    <line>
+      <![CDATA[Eneter username and password to the Text field  ]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to home page of the application ]]>
+    </line>
+    <line>
+      <![CDATA[generating and attaching screen shots ]]>
+    </line>
+    <line>
+      <![CDATA[generated  and attached the  screen shots and test will be completed.. ]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31319" started-at="2019-07-15T10:53:26Z" finished-at="2019-07-15T10:53:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31319" started-at="2019-07-15T10:53:26Z" finished-at="2019-07-15T10:53:58Z">
+      <class name="com.qa.visionit_TestCase.LoginPageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.visionit_TestCase.LoginPageTest@e45eb6]" name="beforeSuite" is-config="true" duration-ms="2073" started-at="2019-07-15T16:23:24Z" finished-at="2019-07-15T16:23:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Initializing the Excel Config and extents Reporters  ]]>
+            </line>
+            <line>
+              <![CDATA[Succesfully done initialization  ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.visionit_TestCase.LoginPageTest@e45eb6]" name="setup" is-config="true" duration-ms="11047" started-at="2019-07-15T16:23:26Z" finished-at="2019-07-15T16:23:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser started and navigating to testing server]]>
+            </line>
+            <line>
+              <![CDATA[Succesfuly navigated  to the login page ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:0, instance:com.qa.visionit_TestCase.LoginPageTest@e45eb6]" name="verifyLoginPageTitleTest" duration-ms="44" started-at="2019-07-15T16:23:38Z" finished-at="2019-07-15T16:23:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started and verifying Title of the Login Page]]>
+            </line>
+            <line>
+              <![CDATA[veried Title of the Login Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.visionit_TestCase.LoginPageTest@e45eb6]" name="tearDown" is-config="true" duration-ms="2280" started-at="2019-07-15T16:23:38Z" finished-at="2019-07-15T16:23:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageTitleTest status=SUCCESS method=LoginPageTest.verifyLoginPageTitleTest()[pri:0, instance:com.qa.visionit_TestCase.LoginPageTest@e45eb6] output=Test started and verifying Title of the Login Page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[generating and attaching screen shots ]]>
+            </line>
+            <line>
+              <![CDATA[generated  and attached the  screen shots and test will be completed.. ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.visionit_TestCase.LoginPageTest@e45eb6]" name="setup" is-config="true" duration-ms="9872" started-at="2019-07-15T16:23:40Z" finished-at="2019-07-15T16:23:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser started and navigating to testing server]]>
+            </line>
+            <line>
+              <![CDATA[Succesfuly navigated  to the login page ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogintoFreeCrmProTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.visionit_TestCase.LoginPageTest@e45eb6]" name="verifyLogintoFreeCrmProTest" duration-ms="6190" started-at="2019-07-15T16:23:50Z" data-provider="getExcelData" finished-at="2019-07-15T16:23:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vasant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vasant123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Eneter username and password to the Text field  ]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to home page of the application ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogintoFreeCrmProTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.visionit_TestCase.LoginPageTest@e45eb6]" name="tearDown" is-config="true" duration-ms="1727" started-at="2019-07-15T16:23:56Z" finished-at="2019-07-15T16:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogintoFreeCrmProTest status=SUCCESS method=LoginPageTest.verifyLogintoFreeCrmProTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.visionit_TestCase.LoginPageTest@e45eb6] output=Eneter username and password to the Text field  ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[generating and attaching screen shots ]]>
+            </line>
+            <line>
+              <![CDATA[generated  and attached the  screen shots and test will be completed.. ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.visionit_TestCase.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
