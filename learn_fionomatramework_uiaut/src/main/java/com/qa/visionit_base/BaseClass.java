@@ -84,7 +84,7 @@ public class BaseClass
 	public BaseClass(){
 
 		try{
-			File fs=new File("D:\\Hybrid_framework\\com.learnMavenProject\\src\\main\\java\\com\\qa\\visionit_configfile\\config.properties");
+			File fs=new File("C:\\Users\\Abhijit Sargar\\git\\Hybrid_framework\\learn_fionomatramework_uiaut\\src\\main\\java\\com\\qa\\visionit_configfile\\config.properties");
 			FileInputStream fis = new FileInputStream(fs);
 
 			prop=new Properties();

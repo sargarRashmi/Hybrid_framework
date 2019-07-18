@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35464" started-at="2019-07-06T09:25:32Z" finished-at="2019-07-06T09:26:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35464" started-at="2019-07-06T09:25:32Z" finished-at="2019-07-06T09:26:08Z">
+      <class name="CRMTest.TestPages.Login_Page_Test">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:CRMTest.TestPages.Login_Page_Test@1e88b3c]" name="BeforeSuite" is-config="true" duration-ms="776" started-at="2019-07-06T14:55:32Z" finished-at="2019-07-06T14:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:CRMTest.TestPages.Login_Page_Test@1e88b3c]" name="setup" is-config="true" duration-ms="14691" started-at="2019-07-06T14:55:32Z" finished-at="2019-07-06T14:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_LoginPAge_Title()[pri:0, instance:CRMTest.TestPages.Login_Page_Test@1e88b3c]" name="verify_LoginPAge_Title" duration-ms="60" started-at="2019-07-06T14:55:47Z" finished-at="2019-07-06T14:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginPAge_Title -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:CRMTest.TestPages.Login_Page_Test@1e88b3c]" name="setup" is-config="true" duration-ms="13468" started-at="2019-07-06T14:55:47Z" finished-at="2019-07-06T14:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginToFreeCRmProTest(java.lang.String, java.lang.String)[pri:0, instance:CRMTest.TestPages.Login_Page_Test@1e88b3c]" name="verifyLoginToFreeCRmProTest" duration-ms="7216" started-at="2019-07-06T14:56:01Z" data-provider="getExcelData" finished-at="2019-07-06T14:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vasant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vasant123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginToFreeCRmProTest -->
+        <test-method status="FAIL" signature="teardown(org.testng.ITestResult)[pri:0, instance:CRMTest.TestPages.Login_Page_Test@1e88b3c]" name="teardown" is-config="true" duration-ms="0" started-at="2019-07-06T14:56:08Z" finished-at="2019-07-06T14:56:08Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wrong number of arguments]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wrong number of arguments
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- CRMTest.TestPages.Login_Page_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
