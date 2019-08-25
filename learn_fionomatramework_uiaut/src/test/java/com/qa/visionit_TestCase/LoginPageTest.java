@@ -20,13 +20,14 @@ public class LoginPageTest extends BaseClass
 	ExcelDataReader excelReader;
 
 	@BeforeMethod
-	public void setup(){
+	public void setup()
+	{
 		
-		Reporter.log("Browser started and navigating to testing server", true);
+	    Reporter.log("Browser started and navigating to testing server", true);
 		
 		startBrowser(prop.getProperty("browserName"), prop.getProperty("testUrl"));
 		
-		Reporter.log("Succesfuly navigated  to the login page ", true);
+		Reporter.log("Successfully navigated  to the login page ", true);
 		
 		loginpage=new LoginPage();
 	}

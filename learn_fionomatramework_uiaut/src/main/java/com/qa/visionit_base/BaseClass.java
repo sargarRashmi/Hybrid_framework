@@ -33,7 +33,8 @@ public class BaseClass
 	public ExtentTest logger;
 
 	@BeforeSuite
-	public void beforeSuite(){
+	public void beforeSuite()
+	{
 
 		Reporter.log("Initializing the Excel Config and extents Reporters  ", true);
 		excelData=new ExcelDataReader();
