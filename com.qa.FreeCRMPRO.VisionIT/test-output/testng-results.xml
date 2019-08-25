@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19810" started-at="2019-06-24T15:40:52Z" finished-at="2019-06-24T15:41:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19810" started-at="2019-06-24T15:40:52Z" finished-at="2019-06-24T15:41:11Z">
+      <class name="com.qa.FreeCRMPRO.VisionIT.TestCases.ContactPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FreeCRMPRO.VisionIT.TestCases.ContactPageTest@3884b2]" name="setup" is-config="true" duration-ms="14621" started-at="2019-06-24T21:10:52Z" finished-at="2019-06-24T21:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_New_ContactPage()[pri:0, instance:com.qa.FreeCRMPRO.VisionIT.TestCases.ContactPageTest@3884b2]" name="verify_New_ContactPage" duration-ms="4286" started-at="2019-06-24T21:11:06Z" finished-at="2019-06-24T21:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_New_ContactPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FreeCRMPRO.VisionIT.TestCases.ContactPageTest@3884b2]" name="teardown" is-config="true" duration-ms="887" started-at="2019-06-24T21:11:11Z" finished-at="2019-06-24T21:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.FreeCRMPRO.VisionIT.TestCases.ContactPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
